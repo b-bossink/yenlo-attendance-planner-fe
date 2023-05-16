@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.container {
+  width: calc(100% - 8.23%);
+  margin-left: 8.23%;
+}
+
+.name {
+  position: absolute;
+  width: 63%;
+  left: 20%;
+  top: 0%;
+}
+
+.email {
+  position: absolute;
+  width: 63%;
+  left: 20%;
+  top: 5%;
+}
+
+.password {
+  position: absolute;
+  width: 63%;
+  left: 20%;
+  top: 10%;
+}
+
+.cpassword {
+  position: absolute;
+  width: 63%;
+  left: 20%;
+  top: 15%;
+}
+
+.header {
+  position: absolute;
+  top: 20%;
+  height: 56%;
+  width: 60%;
+}
+
+.submit {
+  position: absolute;
+  width: 63%;
+  height: 20%;
+  left: 20%;
+  top: 20%;
+}
+
+.info {
+  position: absolute;
+  width: 40%;
+  height: 10%;
+  left: 20%;
+  top: 85%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120%;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+
+  color: #181515;
+}
+
+.backButton {
+  position: absolute;
+  width: 7.5%;
+  height: 7.5%;
+  left: 12.5%;
+  top: 21%;
+  z-index: 1;
+  cursor: pointer;
+}

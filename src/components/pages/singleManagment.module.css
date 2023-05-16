@@ -1,0 +1,32 @@
+.trashIcon{
+    cursor: pointer;
+}
+
+.container{
+    position: absolute;
+    width: 89.77%;
+    top: 15%;
+    margin-left: 9.23%;
+    margin-right: 1%;
+    overflow-y: scroll;
+    max-height: 63%;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
+.button{
+    cursor: pointer;
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    right: 5%;
+    top: 80%;
+    margin-left: 8.23%;
+
+    color: #FFFFFF;
+    background: #F8921E;
+    border: 2px #FFFFFF;
+    border-radius: 10px;
+}

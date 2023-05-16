@@ -1,0 +1,60 @@
+.navbackground{
+    position: absolute;
+    top: 12%;
+    width: 8.23%;
+    height: 100%;
+    background-color: var(--white);
+    align-items: center;
+    z-index: 1;
+}
+
+.calender{
+    position: absolute;
+    left: 20%;
+    top: 2.5%;    
+}
+
+.team{
+    position: absolute;
+    left: 20%;
+    top: 15%;    
+}
+
+.sick{
+    position: absolute;
+    left: 20%;
+    top: 27.5%; 
+}
+
+.leave{
+    position: absolute;
+    left: 20%;
+    top: 40%; 
+}
+
+.adminLine{
+    position: absolute;
+    width: 95%;
+    height: 0%;
+    left: 5%;
+    top: 55%; 
+
+    border: 1px solid #181515;
+}
+
+.singleManage{
+    position: absolute;
+    left: 20%;
+    top: 57.5%; 
+}
+
+.teamManage{
+    position: absolute;
+    left: 20%;
+    top: 70%; 
+}
+
+.calender img, .team img, .sick img, .leave img, .singleManage img, .teamManage img {
+    width: 5vw;
+    height: 5vw;
+}

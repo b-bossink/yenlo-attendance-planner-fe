@@ -1,38 +1,83 @@
+:root {
+
+  --box-size: 100px;
+  
+  /* COLORS */
+  --white: #F7F6F6;
+  --gray: #D9D9D9;
+  --light-blue: #8ED1FC;
+  --blue: #5793DB;
+  --orange: #F8921E;
+  --black: #181515;
+    /* EMPLOYEE STATUS COLORS */
+    --clrOffice: #ADC669;
+    --clrHome: #8AC1E9;
+    --clrCustomer: #CC90CD;
+    --clrSick: #E27C7C;
+    --clrLeave: #F0E580;
+    --clrAway: #D9D9D9;
+
+
+    --clrUnclickableLeave: #f2ecbf;
+    --clrUnclickableGray: #edeaea;
+
+  /* FONTS */
+  --medium-font-size: 19px;
+  --font: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: #ffffff !important;
+}
+
 .App {
+  font-family: var(--font);
+}
+
+h1 {
   text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  height: var(--header-height);
+  line-height: var(--header-height);
+  color: var(--black);
+  background-color: var(--white);
+  border-radius: 0px 5px 0px 0px;
+  border-bottom: 2px solid var(--blue);
+  margin: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  animation-name: "hideShadow";
+  animation-duration: .3s;
+  border-style: none;
+  background-color: var(--orange);
+  border-radius: 3px;
+  color: var(--white);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  animation-name: "showShadow";
+  animation-duration: .3s;
+  box-shadow: 0px 0px 10px .5px rgba(0, 0, 0, 0.3);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes showShadow {
   from {
-    transform: rotate(0deg);
+    box-shadow: none;
   }
   to {
-    transform: rotate(360deg);
+    box-shadow: 0px 0px 10px .5px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes hideShadow {
+  from {
+    box-shadow: 0px 0px 10px .5px rgba(0, 0, 0, 0.3);
+  }
+  to {
+    box-shadow: none;
   }
 }

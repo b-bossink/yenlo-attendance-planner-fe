@@ -1,0 +1,49 @@
+.week {
+  position: absolute;
+  width: calc(100%);
+  top: 14%;
+  z-index: -1;
+}
+
+.week .arrowl {
+  position: absolute;
+  width: 5%;
+  left: 35.9%;
+}
+
+.week .arrowr {
+  position: absolute;
+  width: 5%;
+  left: 58.2%;
+}
+
+.week p {
+  position: absolute;
+  left: 43.9%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 119%;
+  line-height: 200%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #181515;
+}
+
+.teamname{
+  position: absolute;
+  width: 10%;
+  top: 25%;
+  left: 12.9%;
+  z-index: -1;
+}
+
+.teamname p{
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 100%;
+  text-align: center;
+}
